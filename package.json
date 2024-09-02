@@ -1,0 +1,31 @@
+{
+  "name": "env-manager",
+  "version": "1.0.0",
+  "description": "CLI tool to manage environment files",
+  "main": "bin/env-manager.js",
+  "bin": {
+    "env-manager": "./bin/env-manager.js"
+  },
+  "scripts": {
+    "test": "jest"
+  },
+  "dependencies": {
+    "commander": "^10.0.0"
+  },
+  "devDependencies": {
+    "jest": "^29.0.0"
+  },
+  "license": "MIT",
+  "author": "Hitank_Shah",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/hitankshah/env-manager.git"
+  },
+  "keywords": [
+    "cli",
+    "env",
+    "environment",
+    "manager",
+    "env-manager"
+  ]
+}
